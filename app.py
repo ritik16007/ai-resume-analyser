@@ -1,10 +1,3 @@
-import streamlit as st
-
-st.set_page_config(
-    page_title="AI Resume Analyser",
-    page_icon="🚀",
-    layout="centered"
-)
 """
 AI Resume Analyzer - Streamlit App (v2)
 Uses pypdf for PDF text extraction, reportlab for PDF generation, and
@@ -549,7 +542,7 @@ def render_landing_page():
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("---")
     st.caption("Made with ❤️ using Streamlit + Gemini API | Not affiliated with Google")
-
+    st.caption("made by Ritik Kumar Parida ❤️")
 
 # ----------------------------------------------------------------------------
 # MAIN APP PAGE
